@@ -5,7 +5,6 @@ function setCookies() {
   document.cookie = "language=" + document.myform.lang.value;
   location.replace("antrasPage.html");
 }
-document.getElementById('red').style.background = 'red';
 
 // sitas variantas, kai cookies islieka kompe nors narsykle buvo uzdaryta
 // function setCookies() {
